@@ -28,12 +28,8 @@ h2{
     z-index: 2;
 }
 
-.body{
-    width: 100%;
-    display: flex;
-}
-
 .info{
+    width: 100%;
     text-align: center;
     padding: 20px;
     background-color: #0057b7;
@@ -41,6 +37,7 @@ h2{
 }
 
 .point{
+    width: 100%;
     text-align: center;
     padding: 20px;
     background-color: #ffd700;
@@ -48,6 +45,7 @@ h2{
 }
 
 .transport{
+    width: 100%;
     text-align: center;
     padding: 20px;
     background-color: #0057b7;
@@ -55,6 +53,8 @@ h2{
 }
 
 .voice{
+
+    width: 100%;
     text-align: center;
     padding: 20px;
     background-color: #ffd700;
@@ -62,12 +62,14 @@ h2{
 }
 
 .lodging{
+    width: 100%;
     padding: 20px;
     background-color: #0057b7;
     color: #ffd700;
 }
 
 .psy{
+    width: 100%;
     text-align: left;
     padding: 20px;
     background-color: #ffd700;
