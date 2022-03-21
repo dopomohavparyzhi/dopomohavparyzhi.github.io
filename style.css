@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     list-style: none;
-
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
 }
@@ -27,6 +26,11 @@ h2{
     background: linear-gradient(90deg, rgba(0,87,176,1) 0%, rgba(74,124,125,1) 37%, rgba(255,215,0,1) 100%);
     text-align: center;
     z-index: 2;
+}
+
+.body{
+    width: 100%;
+    display: block;
 }
 
 .info{
