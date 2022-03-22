@@ -7,6 +7,10 @@
     font-weight: 100;
 }
 
+a{
+    color: #F40000;
+}
+
 .p{
     text-align: center;
 }
@@ -26,7 +30,6 @@ h2{
     background: rgb(0,87,176);
     background: linear-gradient(90deg, rgba(0,87,176,1) 0%, rgba(74,124,125,1) 37%, rgba(255,215,0,1) 100%);
     text-align: center;
-    z-index: 2;
 }
 
 .body {
@@ -67,52 +70,77 @@ h2{
     color: #ffd700;
 }
 
-.psy{
-    text-align: left;
+.information{
     padding: 20px;
     background-color: #ffd700;
     color: #0057b7;
 }
 
-.health{
+.psy{
+    text-align: left;
     padding: 20px;
     background-color: #0057b7;
     color: #ffd700;
 }
 
-.insurance{
+.health{
     padding: 20px;
     background-color: #ffd700;
-    color: #0057b7; 
+    color: #0057b7;
+}
+
+.insurance{
+    padding: 20px;
+    background-color: #0057b7;
+    color: #ffd700;
 }
 
 .know{
     text-align: center;
     padding: 20px;
-    background-color: #0057b7;
-    color: #ffd700;
+    background-color: #ffd700;
+    color: #0057b7;
 }
 
 .protection{
     padding: 20px;
-    background-color: #ffd700;
-    color: #0057b7;   
+    background-color: #0057b7;
+    color: #ffd700;   
 }
 
 .support{
     padding: 20px;
-    background-color: #0057b7;
-    color: #ffd700;
+    background-color: #ffd700;
+    color: #0057b7;
 }
 
 .school{
     padding: 20px;
-    background-color: #ffd700;
-    color: #0057b7; 
+    background-color: #0057b7;
+    color: #ffd700;  
 }
 
 .social{
     padding: 20px;
+    background-color: #ffd700;
+    color: #0057b7;
+}
+
+.contact{
+    padding: 20px;
     background-color: #0057b7;
     color: #ffd700;
 }
+
+::-webkit-scrollbar{
+    width: 15px;
+  }
+
+::-webkit-scrollbar-track{
+    background-color: #ffd700;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #0057b7;
+    border-radius: 25px;
+  }
